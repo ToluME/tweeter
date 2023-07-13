@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    font-family: "Bungee", sans-serif;
+    font-size: larger;
+    height: 120px;
+    width: 100%;
+    background-color: #4056A1;
+    color: #FFFFFF ;
+    padding: 0 1.5em;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .content {
+display: flex;
+font-family: sans-serif;
+  }
+.angles {
+    display: flex;
+    color: red;
+    justify-content: center;
+
+}
