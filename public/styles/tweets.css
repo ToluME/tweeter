@@ -1,0 +1,85 @@
+
+
+.tweet {
+    background-color: transparent;
+    border: 1px solid #302f2f;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .tweet:hover {
+    box-shadow: 8px 8px  #9eb3f6;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    background-color: transparent;
+    height: 60px;
+  }
+  
+  .header img {
+    width: 10%;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+  }
+  
+  .user-name {
+    font-size: 16px;
+    margin: 0;
+    color: #302f2f;
+  }
+  
+  .handle {
+    display: block;
+    align-self: end;
+    font-size: 12px;
+    color: #9eb3f6;
+  }
+  
+  .tweet-content {
+    /* margin: 0; */
+    color: #302f2f;
+  }
+  
+  .tweet footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top:solid 2px #302f2f;
+  }
+  
+  .actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #4056A1;
+    width: 5rem;
+    
+  }
+  .fa-solid:hover {
+    color: rgb(247, 181, 68);
+
+  }
+  
+  .timestamp {
+    font-weight: bold;
+    color: #302f2f;
+  }
+  
