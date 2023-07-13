@@ -36,7 +36,7 @@
   }
   
   .user-name {
-    font-size: 16px;
+    font-size: 19px;
     margin: 0;
     color: #302f2f;
   }
@@ -44,7 +44,7 @@
   .handle {
     display: block;
     align-self: end;
-    font-size: 12px;
+    font-size: 18px;
     color: #9eb3f6;
   }
   
