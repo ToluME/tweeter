@@ -18,7 +18,7 @@ $(document).ready(function() {
       counterElement.removeClass('invalid');
     }
     // Log the input value and length
-    console.log('Textarea value:', inputValue);
-    console.log('Inpute Length:', inputLength);
+    // console.log('Textarea value:', inputValue);
+    // console.log('Inpute Length:', inputLength);
   });
 });

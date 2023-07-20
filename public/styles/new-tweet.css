@@ -19,6 +19,23 @@
     outline: none;
     
   }
+  .error-message {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-inline: auto;
+    position: relative;
+    color: red;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    outline: 2px solid red;
+
+  }
+ 
+
   .button-counter {
     display: flex;
     font-family: "Bungee", sans-serif;
