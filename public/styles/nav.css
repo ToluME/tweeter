@@ -22,3 +22,20 @@ font-family: sans-serif;
     justify-content: center;
 
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 1023px) {
+  #responsive {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5b000;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 16px;
+    background: none;
+  }
+}

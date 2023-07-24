@@ -9,7 +9,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 /*
  * Global layout stuff
  */
@@ -22,6 +21,13 @@ body {
   font-family: "Source Sans 3", sans-serif;
   align-items: center;
 }
+nav {
+  width: 100%;
+  background-color: #4056A1;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -30,10 +36,42 @@ main {
   justify-content: center;
   background-color: #f4f1ec;
   color: #4056A1;
+}
+#tweet-form {
+  display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 
 }
+ 
+/* Desktop Styles */
 
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+@media only screen and (min-width:1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+  }
+  nav {
+    top: 0;
+    right: 0;
+    padding: 0 1.5em;
+    width: 100%;
+    position: fixed;
+  }
+  body > header {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+    max-width: 1024px;
+  }
+  main {
+    display: flex;
+    width: 66.7%;
+    margin-top: 10em;
+    margin-left: 4em;
+    max-width: 1024px;
+  }
+}

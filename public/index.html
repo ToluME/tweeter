@@ -30,27 +30,31 @@
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
   <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"
+    integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 
 <body>
   <!-- Top nav bar (fixed) -->
-  <nav>
-    <span>tweeter</span>
-    <div class="content">
-      <ul style="list-style-type: none">
-        <li>
-          <span><b>Write</b> a new tweet</span>
-        </li>
-        <li>
-          <div class="angles">
-            <i class="fa-solid fa-angles-down"></i>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div id="resposive">
+    <nav>
+      <span>tweeter</span>
+      <div class="content">
+        <ul style="list-style-type: none">
+          <li>
+            <span><b>Write</b> a new tweet</span>
+          </li>
+          <li>
+            <div class="angles">
+              <i class="fa-solid fa-angles-down"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <header>
     <div>
@@ -65,7 +69,7 @@
   <!-- Page-specific (main) content here -->
   <main class="container">
     <section class="new-tweet">
-      <h2>Compose Tweet</h2>
+      <!-- <h2>Compose Tweet</h2> -->
       <div class="error-message" style="display: none;"></div>
       <form id="tweet-form" action="tweets" method="POST">
         <label for="tweet-text">What are you humming about?</label>
@@ -99,7 +103,7 @@
         </footer>
       </article>
     </section>
-    
+
   </main>
 </body>
 
