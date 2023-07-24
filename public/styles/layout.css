@@ -14,12 +14,18 @@ html {
  */
 
 body {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   color: #545149;
   background-color: #f4f1ec;
   font-family: "Source Sans 3", sans-serif;
   align-items: center;
+}
+.app-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 nav {
   width: 100%;
@@ -38,12 +44,46 @@ main {
   color: #4056A1;
 }
 #tweet-form {
-  display: flex;
+    display: flex;
     flex-direction: column;
     padding-top: 20px;
 
 }
- 
+ /* Mobile Styles */
+ @media only screen and (max-width: 1023px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  body > nav {
+    display: flex;
+    margin-inline: inherit;
+    background-color: #f5b000;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+    
+  }
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+    left: 0px;
+    padding: 1em;
+    margin-inline: inherit ;
+  }
+  .app-body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em;
+   
+  }
+ }
 /* Desktop Styles */
 
 @media only screen and (min-width:1024px) {
@@ -65,8 +105,7 @@ main {
     flex-direction: column;
     width: 33.3%;
     height: 100%;
-    max-width: 500px;
-  
+    max-width: 1204px;
   }
   main {
     display: flex;

@@ -7,7 +7,7 @@
   #tweet-text {
     width: 100%;
     color: #302f2f;
-    height: 18px;
+    height: auto;
     border-bottom: 2px solid #302f2f;
     border-top: none;
     border-left: none;
