@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1024px;
+    
   }
   nav {
     top: 0;
@@ -65,13 +65,15 @@ main {
     flex-direction: column;
     width: 33.3%;
     height: 100%;
-    max-width: 1024px;
+    max-width: 500px;
+  
   }
   main {
     display: flex;
     width: 66.7%;
     margin-top: 10em;
-    margin-left: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
     max-width: 1024px;
   }
 }
