@@ -57,7 +57,6 @@ $(document).ready(function() {
       url: 'http://localhost:8080/tweets',
       dataType: 'JSON',
       success: function(response) {
-        console.log('Tweets loaded successfully:', response);
         renderTweets(response);
       },
       error: function(error) {
@@ -99,12 +98,11 @@ $(document).ready(function() {
       method: 'POST',
       url: '/tweets',
       data: formData,
-      success: function (response) {
-        console.log('Tweet submitted successfully:', response);
+      success: function(response) {
         $tweetText.val(''); //clear the tweet text area
         loadTweets(); // renders updated tweets
       },
-      error: function (error) {
+      error: function(error) {
         console.error('Something went wrong:', error);
       }
     });

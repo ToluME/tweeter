@@ -51,6 +51,7 @@
   .tweet-content {
     /* margin: 0; */
     color: #302f2f;
+    word-wrap:break-word;
   }
   
   .tweet footer {
