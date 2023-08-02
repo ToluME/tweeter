@@ -52,6 +52,7 @@
     /* margin: 0; */
     color: #302f2f;
     word-wrap:break-word;
+    overflow-wrap: anywhere;
   }
   
   .tweet footer {
